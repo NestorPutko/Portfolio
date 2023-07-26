@@ -13,7 +13,7 @@ public class ad3 {
 
 
     @Test
-    public void successRegister(){
+    public void SuccessRegister(){
         String username = faker.pokemon().name();
         String email = username + faker.name().username() + "@wp.pl";
         String password = "haslo1234#";
@@ -28,7 +28,7 @@ public class ad3 {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         Assertions.assertEquals("User successfully registered.", driver.findElement(By.cssSelector("#ur-submit-message-node ul")).getText());
         driver.quit();
-
+//3
 
     }
 }

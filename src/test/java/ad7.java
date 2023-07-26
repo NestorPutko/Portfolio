@@ -13,7 +13,7 @@ public class ad7 {
     Faker faker = new Faker();
 
     @Test
-    public void trySendMessage() {
+    public void TrySendMessage() {
         String name=faker.name().lastName();
         String email=name + "@wp.pl";
         driver.manage().window().maximize();

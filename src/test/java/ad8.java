@@ -8,7 +8,7 @@ public class ad8 {
     static WebDriver driver = new ChromeDriver();
 
     @Test
-    public void addProduct() {
+    public void AddProduct() {
         driver.manage().window().maximize();
         driver.get("http://serwer169007.lh.pl/autoinstalator/serwer169007.lh.pl/wordpress10772/");
         Actions actions = new Actions(driver);

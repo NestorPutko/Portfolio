@@ -12,7 +12,7 @@ public class ad4 {
     static WebDriver driver = new ChromeDriver();
 
     @Test
-    public void checkIsLogoAndSearchVisible(){
+    public void checkIslogoAndSearchVisible(){
         driver.manage().window().maximize();
         driver.get("http://serwer169007.lh.pl/autoinstalator/serwer169007.lh.pl/wordpress10772/");
 

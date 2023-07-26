@@ -9,7 +9,7 @@ public class ad5 {
     static WebDriver driver = new ChromeDriver();
 
     @Test
-    public void goFromHomePageToContactPage() {
+    public void GoFromHomePageToContactPage() {
         driver.manage().window().maximize();
         driver.get("http://serwer169007.lh.pl/autoinstalator/serwer169007.lh.pl/wordpress10772/");
         driver.findElement(By.xpath("//a[text()='Kontakt']")).click();
