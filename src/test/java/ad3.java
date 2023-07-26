@@ -13,7 +13,7 @@ public class ad3 {
 
 
     @Test
-    public void SuccessRegister(){
+    public void successRegister(){
         String username = faker.pokemon().name();
         String email = username + faker.name().username() + "@wp.pl";
         String password = "haslo1234#";
